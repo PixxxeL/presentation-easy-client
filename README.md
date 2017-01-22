@@ -1,5 +1,8 @@
 # Как облегчить себе жизнь при разработке клиентской части веб-приложения
 
-Рассказывается об инструментах, облегчающих написание клиентской части веб-приложений, Таких как Gulp, CoffeeScript, Jade, SASS, Emmet и других.
+В докладе рассказывается об инструментах,
+облегчающих написание клиентской части веб-приложений,
+таких как Gulp, CoffeeScript, Jade, SASS, Emmet и других.
 
-Презентация создана с использованием [Shower Presentation Template](https://travis-ci.org/shower/shower)
+Презентация создана с использованием
+[Shower Presentation Template](https://travis-ci.org/shower/shower)
