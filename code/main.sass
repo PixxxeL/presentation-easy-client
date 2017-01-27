@@ -1,0 +1,20 @@
+@import "./_definitions"
+
+$solidBlue : #30bcca
+
+@font-face
+    font-family: "SansReg"
+    src: url('../fonts/PT_Sans-Web-Regular.ttf')
+
+$regFont  : "SansReg"
+
+@mixin backgroundImage($path, $left: center, $top: center)
+    background: transparent url(../img/#{$path}) no-repeat $left $top
+
+header
+    background: $solidBlue
+    color: #fff
+    a
+        color: lighten($solidBlue, 20%)
+    &.extended
+        @include backgroundImage("image.png")

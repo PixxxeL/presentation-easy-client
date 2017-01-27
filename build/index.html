@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Как облегчить себе жизнь при разработке клиентской части веб-приложения</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles/screen-16x10.css">
+</head>
+<body class="shower list">
+
+	<header class="caption">
+		<h1>Как облегчить себе жизнь при разработке клиентской части веб-приложения</h1>
+		<p>Иван Сергеев, Тюмень, 2017</p>
+	</header>
+
+	<section class="slide" id="cover">
+		<h2>Как облегчить себе жизнь при разработке клиентской части веб-приложения</h2>
+		<p>Докладчик: Иван Сергеев [Студия 42]</p>
+		<ul>
+			<li>Персональный сайт: <a href="http://www.pixel-tyumen.ru/">www.pixel-tyumen.ru</a></li>
+			<li>Блог: <a href="http://pixxxxxel.blogspot.ru/">pixxxxxel.blogspot.ru</a></li>
+			<li>GutHub: <a href="https://github.com/pixxxel">github.com/pixxxel</a></li>
+		</ul>
+		<style>
+			#cover ul {
+				margin-left: 100px;
+				}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Наши старые добрые друзья</h2>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>Javascript</li>
+		</ul>
+		<img class="cover" src="pictures/html-css-js.jpg">
+	</section>
+
+	<section class="slide emmet">
+		<h2>Emmet — половину напишет за вас</h2>
+		<p>Сайт: <a href="http://emmet.io/">http://emmet.io/</a></p>
+		<img class="cover" src="pictures/emmet.jpg">
+		<style>
+			.emmet p {
+				margin-top: 350px;
+				}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Лаконичный HTML: Slim, Haml, Jade (Pug)</h2>
+		<ul>
+			<li>Slim: <a href="http://slim-lang.com/">http://slim-lang.com/</a></li>
+			<li>Haml: <a href="http://haml.info/">http://haml.info/</a></li>
+			<li>Jade (Pug): <a href="https://pugjs.org/">https://pugjs.org/</a></li>
+		</ul>
+		<img class="cover" src="pictures/tmpls.jpg">
+	</section>
+
+	<section class="slide">
+		<h2>Пример на Pug (Jade)</h2>
+		<img class="cover" src="pictures/pug.jpg">
+	</section>
+
+	<section class="slide">
+		<h2>Удобный SASS, Less, Stylus</h2>
+		<ul>
+			<li>SASS: <a href="http://sass-lang.com/">http://sass-lang.com/</a></li>
+			<li>Less: <a href="http://lesscss.org/">http://lesscss.org/</a></li>
+			<li>Stylus: <a href="http://stylus-lang.com/">http://stylus-lang.com/</a></li>
+		</ul>
+		<img class="cover" src="pictures/sass-less-stylus.jpg">
+	</section>
+
+	<section class="slide">
+		<h2>Пример на SASS</h2>
+		<img class="cover" src="pictures/sass.jpg">
+	</section>
+
+	<section class="slide">
+		<h2>Подсластим Javascript</h2>
+		<p>Зоопарк <a href="https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS">http://bit.ly/1FGHtPT</a></p>
+		<ul>
+			<li>CoffeeScript</li>
+			<li>TypeScript</li>
+			<li>ECMAScript 6 и уже 7</li>
+			<li>LiveScript</li>
+			<li>Elm</li>
+			<li>asm.js</li>
+			<li>...</li>
+		</ul>
+		<footer class="footer">
+			<p>https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS</p>
+		</footer>
+	</section>
+
+	<section class="slide coffee">
+		<h2>Прелести CoffeeScript</h2>
+		<p><a href="http://coffeescript.org/">http://coffeescript.org/</a></p>
+		<img class="cover" src="pictures/coffee.jpg">
+		<style>
+			.coffee p {
+				margin-top: 390px;
+				}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>ECMAScript 6, 7 и Babel — новый Javascript</h2>
+		<p><a href="https://babeljs.io/">https://babeljs.io/</a></p>
+		<img class="cover" src="pictures/babel.jpg">
+	</section>
+
+	<section class="slide">
+		<h2>Node.js — основа разработки на клиенте</h2>
+		<ul>
+			<li>Платформа Javascript: <a href="https://nodejs.org/">https://nodejs.org/</a></li>
+			<li>Пакетный менеджер: <a href="https://www.npmjs.com/">https://www.npmjs.com/</a></li>
+		</ul>
+		<img class="cover" src="pictures/nodejs.jpg">
+	</section>
+
+	<section class="slide">
+		<h2>Gulp — суперключ</h2>
+		<p><a href="http://gulpjs.com/">http://gulpjs.com/</a></p>
+		<img class="cover" src="pictures/gulp.jpg">
+	</section>
+
+	<section class="slide">
+		<h2>Как у нас: Jade + SASS + CoffeeScript</h2>
+		<p><a href="https://github.com/pixxxel/regular-gulpfile">https://github.com/pixxxel/regular-gulpfile</a></p>
+		<pre>
+			<code>$ git clone git@github.com:pixxxel/regular-gulpfile.git \</code>
+			<code>$ my-proj</code>
+			<code>$ . ./my-proj/new-client.sh <span class="comment"># new-client.bat on Windows</span></code>
+			<code>$ gulp copy</code>
+			<code>$ gulp</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>Еще ништяки: Webpack, Browserify, Bower</h2>
+		<ul>
+			<li>Webpack: <a href="https://webpack.js.org/">https://webpack.js.org/</a></li>
+			<li>Browserify: <a href="http://browserify.org/">http://browserify.org/</a></li>
+			<li>Bower: <a href="https://bower.io/">https://bower.io/</a></li>
+		</ul>
+		<img class="cover" src="pictures/other-tools.jpg">
+	</section>
+
+	<section class="slide">
+		<h2>Фреймверков много разных:<br>Bootstrap, React.js...</h2>
+		<img class="cover" src="pictures/frameworks.jpg">
+	</section>
+
+	<p class="badge">
+		<a href="https://github.com/PixxxeL/presentation-easy-client">GitHub</a>
+	</p>
+
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress"></div>
+
+	<script src="scripts/shower.min.js"></script>
+	<!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+	<!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>
